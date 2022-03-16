@@ -7,15 +7,20 @@
     <title>Meu Perfil</title>
 </head>
 <body>
+    <nav>
    <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
 
-    </ul>
-        
-    <h1>Cores no Magic the gathering </h1> <!-- vai de ha1 a h6 mudando o tamanho das fontes-->
+   </ul>
+    </nav><!-- parte da semantica que vai indicar as conf/categoria dos atributos para os navegadores.-->
+        <header> <!-- parte da semantic-->
+            <h1>Cores no Magic the gathering </h1> <!-- vai de ha1 a h6 mudando o tamanho das fontes-->
+        </header>
 
-    <h3> No magic the gathering ha 5 cores principais, Branco, Azul, Preto, Vermelha e Verde. </h3>
+        <main><!-- parte da semantic-->
+            <section><!-- parte da semantic-->
+                <h3> No magic the gathering ha 5 cores principais, Branco, Azul, Preto, Vermelha e Verde. </h3>
     <p> <!-- para indicar um paragrafo-->
      cada cor tem um significado para elas e e elas tem seus pontos fortes como por exemplo <br>
       o preto usa bem o cemiterio e remoções 
@@ -74,8 +79,8 @@
     <ul>Verde / Preto = Golgari ou BG</ul>
     <ul>Vermelho / Branco = Boros ou RW</ul>
     <ul>Verde / Azul = Simic ou UG</ul>
-     
-        <h2>Video sobre as 5 cores</h2> 
+
+    <h2>Video sobre as 5 cores</h2> 
         <!--iframe seria um pedaço de um site dentro do nosso"-->
         <iframe width="560" 
         height="315" 
@@ -85,5 +90,20 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen
         ></iframe>
+
+        </section>
+    </main>
+
+    <!-- input adiciona interaçoes e ferramentas ao cod, como testos, datas campo para senhas e etc...-->
+    <label for="date">Data</label>
+    <input type="date">
+
+    <label for="text">Texto</label>
+    <input type="text">
+
+
+    
+     
+        
 </body>
 </html>
