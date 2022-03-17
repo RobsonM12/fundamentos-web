@@ -1,0 +1,66 @@
+/* Estilos da page index.html
+*/
+    h1
+    {color: rgb(141, 143, 60);
+    font-size: 43px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  h2{
+    display: flex;
+    font-size:  20px;
+}
+section{
+    color: rgb(160, 97, 3);
+}
+.p{
+text-align: center;
+font-size: 18px;
+
+}
+/* container e cards-mono estão para ajustar as imagens da cartas e centralizalar, creio que poderia usar uma so classe para isto mas ainda não consegui.*/
+.container{  
+    width:200px;
+    border-color: black;   
+}
+     .cards-mono{
+         display: flex table-row;
+         flex-flow: row wrap;         
+     } 
+     .center{
+         text-align: center;
+     }
+     #menu li{
+         display: inline;
+         padding: 15px;  
+     }
+     #menu li a{
+        text-decoration: none;
+        color: black;
+
+     }
+     #menu li a :hover{
+         color: darkgrey;
+     }
+     .tm-social{
+         width: 50px;
+         height: 50px;
+         padding: 15px;
+
+     }
+     .justify{
+         text-align: justify;
+
+     }
+     .mb-50{
+         margin-bottom: 50px;
+     }
+     .cont{
+         display: flex;
+         flex-flow: row;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     
+     
+
+     
