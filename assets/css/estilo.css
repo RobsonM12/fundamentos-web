@@ -1,7 +1,7 @@
 /* Estilos da page index.html
 */
     h1
-    {color: rgb(141, 143, 60);
+    {color: rgb(255, 252, 49);
     font-size: 43px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
   h2{
@@ -9,11 +9,16 @@
     font-size:  20px;}
 
 section{
-    color: rgb(160, 97, 3);}
+    color: rgb(255, 234, 200);}
     
 .p{
 text-align: center;
-font-size: 18px;}
+font-size: 18px;
+color: aliceblue;}
+.white{
+    color: aliceblue;
+
+}
 /* container e cards-mono estão para ajustar as imagens da cartas e centralizalar, creio que poderia usar uma so classe para isto mas ainda não consegui.*/
 .container{  
     width:200px;
@@ -24,7 +29,9 @@ font-size: 18px;}
          flex-flow: row wrap;         } 
 
      .center{
-         text-align: center; }
+         text-align: center;
+       }
+         
 
      #menu li{
          display: inline;
@@ -32,7 +39,7 @@ font-size: 18px;}
 
      #menu li a{
         text-decoration: none;
-        color: black;}
+        color: rgb(226, 225, 225);}
 
      #menu li a :hover{
          color: darkgrey;}
@@ -53,6 +60,15 @@ font-size: 18px;}
          flex-flow: row;
          justify-content: center;
          align-items: center;}
+.bg{
+    background-image: url(../img/bg.webp);
+    background-size: auto;
+  
+    
+
+}
+
+
      
      
      
