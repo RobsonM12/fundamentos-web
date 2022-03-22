@@ -33,7 +33,7 @@ nomeOk = true
 }
     function validaEmail(){
      let txtEmail = document.querySelector("#txtEmail")
-     if(email.value.indexOf('@') == -1|| email.value.indexOf('.') == -1){
+     if(email.value.indexOf('@')==-1|| email.value.indexOf('.')==-1){
         txtEmail.innerHTML = 'E-mail Invalido'
         txtEmail.style.color ='yellow'
      }else{
